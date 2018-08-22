@@ -79,7 +79,7 @@ public class GeneralStreams {
 		
 		Arrays.stream(incomingArray)
 			.map(String::length)             // The string stream is converted into other type of stream (Integer in this case)
-			.forEach(System.out::println);
+			.forEach(s -> System.out.print(s + " "));
 		
 		
 		System.out.println();
